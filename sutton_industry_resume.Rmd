@@ -1,0 +1,261 @@
+---
+title: "Guy Frederick Sutton"
+author: Guy Frederick Sutton
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+```{css, echo=FALSE}
+# Custom CSS to format sections 
+.location{
+  display: none;
+}
+#aside2 > h1 {
+display: none;
+}
+#aside2{
+  padding: 0 0 0.6in 0.2in;
+  font-size: 0.8rem;
+  height: var(--content-area-height);
+}
+.aside2{
+  width: var(--sidebar-width);
+  font-size: 0.8rem;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+/* sidebar */
+.aside2 li::before {
+  content: none;
+}  
+  
+#skills2 > h2{
+  margin: 0.05in 0 0.15in;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+.aside2 .level2{
+  margin-top: 0.5in;
+}
+#skills2{
+  line-height: 1.5;
+}
+#skills2 ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0 10px 0 10px;
+}
+```
+
+
+
+Aside
+================================================================================
+
+Personal Details {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> g.sutton@ru.ac.za
+- <i class="fa fa-github"></i> [github.com/guysutton](https://github.com/guysutton)
+<!-- - <i class="fa fa-twitter"></i> [twitter.com/Guy_F_Sutton](https://twitter.com/Guy_F_Sutton) -->
+- <i class="fas fa-rss"></i> [Statistics Blog](https://statsforscaredecologists.netlify.app/)
+- <i class="fas fa-phone"></i> +27 82 552 4643
+
+
+
+
+<i class="fa fa-code"></i> Programming {#skills}
+--------------------------------------------------------------------------------
+
+- R / tidyverse
+- Julia
+- git / GitHub
+
+<i class="fas fa-chart-pie"></i> Data analysis {#skills}
+--------------------------------------------------------------------------------
+
+- Linear models (inc. GLM, GLMM)
+- Non-linear models (e.g. GAM)
+- Data visualisation (e.g. ggplot2)
+- Multivariate analyses (e.g. MDS, PCA, multivariate GLM)
+- Simulation
+
+<i class="fas fa-book-open"></i> Literate Coding {#skills}
+--------------------------------------------------------------------------------
+
+- R markdown / markup
+- blogdown / bookdown / pagedown
+- xaringan
+- distill
+- Continuous integration (e.g. Github actions)
+- Package development (in R and Julia)
+- Functional programming
+
+Main
+================================================================================
+
+Guy Frederick Sutton {#title}
+--------------------------------------------------------------------------------
+
+I am a data scientist, an academic, an R and Julia software developer, and an Entomologist. As a data scientist, I build software tools, and develop courses and workshops to teach statistical methods for scientific research, and how to code in R and Julia. My teaching resources are communicated across multiple platforms, including post-graduate courses, professional workshops and my blog: [Stats for Scared Ecologists](https://statsforscaredecologists.netlify.app/). My scientific work focuses on understanding plant-insect interactions and how this knowledge can be used to manage natural ecosystems. 
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Ph.D. in Entomology
+
+Rhodes University
+
+Makhanda, South Africa
+
+2020 - 2017
+
+Professional Experience {data-icon=suitcase data-concise=true}
+--------------------------------------------------------------------------------
+
+### Quantitative Ecologist
+
+Rhodes University 
+
+Durban, South Africa
+
+Current - 2019
+
+::: concise
+- Project and team management
+- Design, conduct, and analyse scientific experiments
+- Organise and conduct remote field surveys 
+- Communicate results in reports, peer-reviewed papers, and talks
+- Develop teaching materials and research software
+- Teach technical classes to under-graduates, post-graduates and other researchers 
+- Successfully write grant proposals for funding
+- Recruit, supervise, and lead a team of MSc and PhD candidates 
+:::
+
+Software Development {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+### [R Package: *ThermalSampleR*](https://github.com/clarkevansteenderen/ThermalSampleR)
+
+N/A
+
+N/A
+
+Current - 2019
+
+- *ThermalSampleR* is an R package I co-wrote and maintain that performs a range of simulations to aid sample size planning for experiments determining physiological limits (e.g. CT~min~/CT~max~) of biological organisms.
+
+### [R Package: *sapiaR*](https://github.com/guysutton/sapia_type_maps)
+
+N/A
+
+N/A
+
+Current - 2019
+
+- *sapiaR* is a developmental R package I wrote and maintain that automates the calculation of geospatial statistics and plotting of the characteristic South African Plant Invaders Atlas (SAPIA)-style distribution maps used in numerous publications on invasive plants in South Africa.
+
+### [Julia Package: *ModelCheck.jl*](https://github.com/guysutton/ModelCheck.jl)
+
+N/A
+
+N/A
+
+Current - 2020
+
+- *ModelCheck.jl* is a developmental Julia package I wrote and maintain that allows users to perform model diagnostics on their fitted statistical models, by producing a range of residual diagnostics plots (e.g. quantile-quantile plots, fitted versus residuals plots).
+
+Teaching {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### [Introduction to R for biologists](https://github.com/guysutton/intro_r_biologists)
+
+N/A
+
+N/A
+
+Current - 2019
+
+- As co-instructor, I developed a series of lectures for this Honours-level course on linear modelling in R. These lectures introduce students to common statistical analyses used in the field of ecology, including: linear regression, ANOVA, ANCOVA and more complex linear models (e.g. binomial GLM, poisson GLM), and demonstrate how to code these analyses in R, including: model diagnostics and evaluation, inference and producing publication-quality written summaries and visualisations.
+
+### [R workshops](https://github.com/guysutton/2021_CRI_GLM_workshop)
+
+N/A
+
+N/A
+
+Current - 2019
+
+- I have developed a number of weekly 1 - 1.5 hour and multi-day statistics workshops, primarily using the R statistical software, to graduate students, faculty and industry partners. These workshops are driven by the needs of the attendees, covering topics including: data management/curation, data cleaning, linear modelling, multivariate analyses, data visualisation and spatial analyses (e.g. mapping).
+
+<!--------------- END OF PAGE 1 ---------------------------->
+
+Selected Peer-Reviewed Papers {data-icon=file}
+--------------------------------------------------------------------------------
+
+### [SPEDE-sampler: an R Shiny application to assess how methodological choices and taxon-sampling can affect Generalised Mixed Yule Coalescent (GMYC) output and interpretation](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13591)
+
+Molecular Ecology Resources
+
+N/A
+
+2022
+
+### [Field‐based ecological studies to assess prospective biological control agents for invasive alien plants: An example from giant rat's tail grass](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13834)
+
+Journal of Applied Ecology
+
+N/A
+
+2021
+
+### 12 scientific papers, ~66 citations, h-index: 6
+
+<i class="fas fa-link"></i> [More details about my scientific research](https://scholar.google.com/citations?user=vV1bAk0AAAAJ&hl=en)</span>
+
+Aside2
+================================================================================
+
+
+&nbsp; &nbsp; <i class="fa fa-cube"></i> References {#skills2}
+--------------------------------------------------------------------------------
+
+- &nbsp; &nbsp; &nbsp; Professor Iain Paterson 
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-map-marker"></i> Rhodes University
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-envelope"></i> [I.paterson@ru.ac.za](I.paterson@ru.ac.za)
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-phone"></i> +27 46 603 8098
+- &nbsp;
+- &nbsp; &nbsp; &nbsp; Distinguished Professor Martin Hill 
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-map-marker"></i> Rhodes University
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-envelope"></i> [M.hill@ru.ac.za](M.hill@ru.ac.za)
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-phone"></i> +27 46 603 8712
+- &nbsp;
+- &nbsp; &nbsp; &nbsp; Mr Michael Day 
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-map-marker"></i> Queensland Department  
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; of Agriculture and Fisheries,
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Australia
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-envelope"></i> [Michael.Day@daf.qld.gov.au](Michael.Day@daf.qld.gov.au)
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-phone"></i> +61 407 128 278
+- &nbsp;
+- &nbsp; &nbsp; &nbsp; Dr Kim Canavan
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-map-marker"></i> Rhodes University
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-envelope"></i> [K.canavan@ru.ac.za](K.canavan@ru.ac.za)
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fas fa-phone"></i> +27 72 633 3073
+- &nbsp;
+
+<br><br>
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Résumé generated in `R` and [pagedown](https://github.com/rstudio/pagedown)
+
+Last updated: `r gsub(" +", " ", format(Sys.Date(), "%B %e, %Y"))`
+
+
+</div>
